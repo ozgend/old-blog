@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwitterSearch", "TwitterSearch\TwitterSearch.csproj", "{A9492AB4-EFBF-465A-AAD2-8A777755D189}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "doc", "doc", "{8004B0DF-DC9F-414A-852A-AC67C94DC009}"
+	ProjectSection(SolutionItems) = preProject
+		doc\2013-01-03-20-01-03 (2).png = doc\2013-01-03-20-01-03 (2).png
+		doc\2013-01-03-20-01-09 (2).png = doc\2013-01-03-20-01-09 (2).png
+		doc\2013-01-03-20-01-39 (2).png = doc\2013-01-03-20-01-39 (2).png
+		doc\2013-01-03-20-01-40 (2).png = doc\2013-01-03-20-01-40 (2).png
+		doc\2013-01-03-20-01-49 (2).png = doc\2013-01-03-20-01-49 (2).png
+		doc\2013-01-03-21-01-47 (2).png = doc\2013-01-03-21-01-47 (2).png
+		doc\2013-01-03-21-01-55 (2).png = doc\2013-01-03-21-01-55 (2).png
+		doc\2013-01-03-21-01-56 (2).png = doc\2013-01-03-21-01-56 (2).png
+		doc\2013-01-03-22-01-06 (2).png = doc\2013-01-03-22-01-06 (2).png
+		doc\2013-01-03-22-01-56 (2).png = doc\2013-01-03-22-01-56 (2).png
+		doc\2013-01-03-23-01-37 (2).png = doc\2013-01-03-23-01-37 (2).png
+		doc\2013-01-04 11 36 16 (2).png = doc\2013-01-04 11 36 16 (2).png
+		doc\2013-01-04 11 36 30 (2).png = doc\2013-01-04 11 36 30 (2).png
+		doc\2013-01-04 11 36 37 (2).png = doc\2013-01-04 11 36 37 (2).png
+		doc\2013-01-04 11 37 02 (2).png = doc\2013-01-04 11 37 02 (2).png
+		doc\2013-01-04 11 38 09 (2).png = doc\2013-01-04 11 38 09 (2).png
+		doc\2013-01-04 11 59 40 (2).png = doc\2013-01-04 11 59 40 (2).png
+		doc\2013-01-04 11 59 52 (2).png = doc\2013-01-04 11 59 52 (2).png
+		doc\2013-01-04 12 02 58 (2).png = doc\2013-01-04 12 02 58 (2).png
+		doc\Rx-TwitterSearch.rtf = doc\Rx-TwitterSearch.rtf
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwitterSearchBegin", "TwitterSearchBegin\TwitterSearchBegin.csproj", "{DA30CBC4-5751-48D8-8A5A-6C7EDCB7B347}"
+EndProject
+Global
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A9492AB4-EFBF-465A-AAD2-8A777755D189}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9492AB4-EFBF-465A-AAD2-8A777755D189}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9492AB4-EFBF-465A-AAD2-8A777755D189}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9492AB4-EFBF-465A-AAD2-8A777755D189}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA30CBC4-5751-48D8-8A5A-6C7EDCB7B347}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA30CBC4-5751-48D8-8A5A-6C7EDCB7B347}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA30CBC4-5751-48D8-8A5A-6C7EDCB7B347}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA30CBC4-5751-48D8-8A5A-6C7EDCB7B347}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
