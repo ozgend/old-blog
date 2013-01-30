@@ -1,8 +1,5 @@
 ﻿using Newtonsoft.Json;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 
 namespace Cronom.Demo.HttpHandlerCore
 {
@@ -14,7 +11,7 @@ namespace Cronom.Demo.HttpHandlerCore
 
         public static string Error(Exception ex)
         {
-            object err = new { Ok = false, Message = ex.Message };
+            object err = new { Ok = false, ex.Message };
             return JsonConvert.SerializeObject(err);
         }
     }
