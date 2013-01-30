@@ -1,9 +1,6 @@
-﻿using Cronom.Demo.HttpHandlerCore.Models;
-using Newtonsoft.Json;
+﻿using Newtonsoft.Json;
 using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Linq;
 using System.Text;
 using System.Web;
 
@@ -23,15 +20,14 @@ namespace Cronom.Demo.HttpHandlerCore
 
         public static string RequestPayload(this HttpRequest request)
         {
-            StringBuilder sb = new StringBuilder();
-            int streamLength; int streamRead;
+            var sb = new StringBuilder();
             Stream s = request.InputStream;
-            streamLength = Convert.ToInt32(s.Length);
-            byte[] streamArray = new byte[streamLength];
+            var streamLength = Convert.ToInt32(s.Length);
+            var streamArray = new byte[streamLength];
 
-            streamRead = s.Read(streamArray, 0, streamLength);
+            s.Read(streamArray, 0, streamLength);
 
-            for (int i = 0; i < streamLength; i++)
+            for (var i = 0; i < streamLength; i++)
             {
                 sb.Append(Convert.ToChar(streamArray[i]));
             }
