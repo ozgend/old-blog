@@ -27,7 +27,7 @@ namespace Cronom.Demo.HttpHandlerCore
             finally
             {
                 context.Response.ContentType = "application/json";
-                context.Response.Write(responseData);
+                if (responseData != null) context.Response.Write(responseData);
                 context.Response.End();
             }
         }

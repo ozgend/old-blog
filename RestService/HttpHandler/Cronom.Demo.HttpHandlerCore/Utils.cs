@@ -1,8 +1,6 @@
 ﻿using Cronom.Demo.HttpHandlerCore.Models;
 using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 
 namespace Cronom.Demo.HttpHandlerCore
 {
@@ -18,7 +16,7 @@ namespace Cronom.Demo.HttpHandlerCore
 
         public static User SearchUser(Search search)
         {
-            User user = null;
+            User user;
 
             if (search.Id > 0)
             {
@@ -41,23 +39,17 @@ namespace Cronom.Demo.HttpHandlerCore
             {
                 return user;
             }
-            else
-            {
-                throw new Exception("Search yields no result.");
-            }
+            throw new Exception("Search yields no result.");
         }
 
 
         public static User Login(string email) {
-            int index = Array.IndexOf(Emails, email);
+            var index = Array.IndexOf(Emails, email);
             if (index >= 0)
             {
                 return Users[index];
             }
-            else
-            {
-                throw new Exception("Invalid user.");
-            }
+            throw new Exception("Invalid user.");
         }
     }
 }
